@@ -9,7 +9,7 @@ import pickle as pkl
 import numpy as np
 import streamlit as st
 
-filename = "C:/Users/Indoskill/0. Saved_Models/Diabetes Prediction/diabetes_model.sav"
+filename = "diabetes_model.sav"
 load_model = pkl.load(open(filename, 'rb'))
 
 st.title('Diabetes Disease Prediction')
